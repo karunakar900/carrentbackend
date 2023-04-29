@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const datarouter = require('../backend/routes/bookingroute');
+const datarouter = require('./routes/bookingroute');
 const cors = require('cors');
 const app = express();
 
